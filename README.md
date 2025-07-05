@@ -74,20 +74,22 @@ src/
 
 Here is an example of what the console output looks like during the checkout process:
 ```
-**Shipment Notice**
+** Shipment notice **
+1x Cheese       200g
+1x Biscuits     700g
+3x TV           21000g
+Total package weight 21.9kg
+** Checkout receipt **
+1x Cheese      100
+1x Biscuits      150
+3x TV      3000
+2x Scratch Card      100
+----------------------
+Subtotal         3350
+Shipping         105
+Amount           3455
+Remaining Balance      11545
 
-1x Cheese 200g
-1x Biscuits 700g
-Total package weight 0.9kg
-
-
-**Checkout Receipt**
-
-2x Cheese 200
-1x Biscuits 150
-Subtotal 350
-Shipping 30
-Amount 380
 
 ```
 ---
