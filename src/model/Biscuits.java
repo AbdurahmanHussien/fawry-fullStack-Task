@@ -22,9 +22,6 @@ public class Biscuits extends Product implements Shippable, Expirable {
         return weight;
     }
 
-    public LocalDate getExpiryDate() {
-        return expiryDate;
-    }
 
     public boolean isExpired() {
         return LocalDate.now().isAfter(expiryDate);

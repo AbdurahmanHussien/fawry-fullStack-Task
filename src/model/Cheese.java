@@ -25,9 +25,6 @@ public class Cheese extends Product implements Shippable, Expirable {
     }
 
 
-    public LocalDate getExpiryDate() {
-        return expiryDate;
-    }
 
     public boolean isExpired() {
         return LocalDate.now().isAfter(expiryDate);

@@ -28,11 +28,6 @@ public class Cart {
         return items.isEmpty();
     }
 
-    public double getSubtotal() {
-        return items.stream()
-                .mapToDouble(CartItem::getTotalPrice)
-                .sum();
-    }
 
     public List<Shippable> getShippableItems() {
         List<Shippable> shippables = new ArrayList<>();
