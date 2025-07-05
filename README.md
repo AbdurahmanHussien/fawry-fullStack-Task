@@ -73,7 +73,7 @@ src/
 ## 📋 Example Output
 
 Here is an example of what the console output looks like during the checkout process:
-
+```
 **Shipment Notice**
 
 1x Cheese 200g
@@ -89,7 +89,7 @@ Subtotal 350
 Shipping 30
 Amount 380
 
-
+```
 ---
 
 ## 👨‍💻 Author
