@@ -1,38 +1,36 @@
 # E-Commerce System (OOP Console App)
 
-A Java console application that simulates a basic e-commerce checkout system, demonstrating key object-oriented programming (OOP) principles.
+A Java console application simulating a basic e-commerce checkout system using object-oriented programming principles.
 
----
+![Java](https://img.shields.io/badge/Java-17+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## ✨ Features
+## Features
 
-- **Product Management**: Add various products to a shopping cart and validate quantities against available stock.
-- **Diverse Product Types**: The system supports different kinds of products with specific characteristics:
-  - **Expirable Products**: Items with an expiry date, such as `Cheese` and `Biscuits`.
-  - **Shippable Products**: Items that can be physically shipped, like `Cheese` and `TV`.
-- **Shipping Calculation**: A dedicated `ShippingService` calculates the total weight of all shippable items in the cart.
-- **Comprehensive Checkout Process**: The `CheckoutService` handles the final purchase steps:
-  - Validates product availability and checks for expired items.
-  - Calculates the subtotal and any applicable shipping fees.
-  - Updates the stock quantity for purchased products.
-  - Deducts the total amount from the customer's balance.
-  - Generates and displays a shipment notice and a final receipt.
+- 🛒 Add products to cart with quantity validation
+- 🏷️ Support for different product types:
+  - Expirable products (e.g., Cheese, Biscuits)
+  - Shippable products (e.g., Cheese, TV)
+- 📦 Shipping service that calculates total package weight
+- 💰 Checkout process that:
+  - Validates stock and expiry dates
+  - Calculates subtotal and shipping fees
+  - Updates product quantity
+  - Deducts customer balance
+  - Displays shipment notice and receipt
 
----
+## Technologies
 
-## 🛠️ Technologies
+- Java 17+
+- Pure Java (no frameworks)
+- No database (in-memory data)
 
-- **Language**: Java 17+
-- **Frameworks**: None (Built with pure Java)
-- **Database**: None (In-memory data storage)
-
----
 
 ## 📂 Project Structure
 
 The project is organized into a clear and modular structure to separate concerns:
 
-
+```
 src/
 ├── Main.java
 ├── model/
@@ -51,7 +49,7 @@ src/
 ├── ShippingService.java
 └── CheckoutService.java
 
-
+```
 ---
 
 ## 🚀 How to Run
